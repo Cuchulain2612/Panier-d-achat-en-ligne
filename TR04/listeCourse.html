@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ma liste de course</title>
+    <script src="js/projet.js"></script>
+</head>
+<body>
+    <section>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th> Article + prix </th>
+                    <th colspan="2"> Compteur </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>salade (2$)</td>
+                    <td> <button onclick="additionEtArray('salade');salade+=1">Ajouter</button> </td>
+                    <td> <button onclick="soustraireEtArray('salade');if(salade>1){salade-=1}">Retirer</button> </td>
+                </tr>
+                <tr>
+                    <td>tomate (5$)</td>
+                    <td> <button onclick="additionEtArray('tomate');tomate +=1">Ajouter</button> </td>
+                    <td> <button onclick="soustraireEtArray('tomate');if(tomate>1){tomate-=1}">Retirer</button> </td>
+                </tr>
+                <tr>
+                    <td>concombre (10$)</td>
+                    <td> <button onclick="additionEtArray('concombre');concombre+=1">Ajouter</button> </td>
+                    <td> <button onclick="soustraireEtArray('concombre');if(concombre>1){concombre-=1}">Retirer</button> </td>
+                </tr>
+                <tr>
+                    <td>kinder (15$)</td>
+                    <td> <button onclick="additionEtArray('kinder');kinder+=1">Ajouter</button> </td>
+                    <td> <button onclick="soustraireEtArray('kinder');if(kinder>1){kinder-=1}">Retirer</button> </td>
+                </tr>
+                <tr>
+                    <td>fromage blanc (20$)</td>
+                    <td> <button onclick="additionEtArray('fromageBlanc');fromageBlanc+=1">Ajouter</button> </td>
+                    <td> <button onclick="soustraireEtArray('fromageBlanc');if(fromageBlanc>1){fromageBlanc-=1}">Retirer</button> </td>
+                </tr>
+                <tr>
+                    <td>fromage de chèvre (100$)</td>
+                    <td> <button onclick="additionEtArray('fromageChevre');fromageChevre+=1">Ajouter</button> </td>
+                    <td> <button onclick="soustraireEtArray('fromageChevre');if(fromageChevre>1){fromageChevre-=1}">Retirer</button> </td>
+                </tr>
+                <tr>
+                    <td>poulet (300$)</td>
+                    <td> <button onclick="additionEtArray('poulet');poulet+=1">Ajouter</button> </td>
+                    <td> <button onclick="soustraireEtArray('poulet');if(poulet>1){poulet-=1}">Retirer</button> </td>
+                </tr>
+                <tr>
+                    <td>boeuf (400$)</td>
+                    <td> <button onclick="additionEtArray('boeuf');boeuf+=1">Ajouter</button> </td>
+                    <td> <button onclick="soustraireEtArray('boeuf');if(boeuf>1){boeuf-=1}">Retirer</button> </td>
+                </tr>
+                <tr>
+                    <td>cheval (450$)</td>
+                    <td> <button onclick="additionEtArray('cheval');cheval+=1">Ajouter</button> </td>
+                    <td> <button onclick="soustraireEtArray('cheval');if(cheval>1){cheval-=1}">Retirer</button> </td>
+                </tr>
+                <tr>
+                    <td>tabac (500$)</td>
+                    <td> <button onclick="additionEtArray('tabac'),tabac+=1">Ajouter</button> </td>
+                    <td> <button onclick="soustraireEtArray('tabac');if(tabac>1){tabac-=1}">Retirer</button> </td>
+                </tr>
+                <tr>
+                    <td colspan="2"> <button onclick="resultat()">Envoyer </button></td>
+                    <td> <button onclick="listeArticle=[]; sommeTotal =0">Reset </button></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <footer>
+        <br><br><br>
+        <hr>
+        <p>
+            Travail réalisé par Doneux Alexandre, Guiot Louis et Meunier Arnaud.
+        </p>
+    </footer>
+</body>
+</html>
