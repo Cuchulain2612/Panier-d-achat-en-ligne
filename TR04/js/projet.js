@@ -1,13 +1,4 @@
-let salade = 0;
-let tomate = 0;
-let concombre = 0;
-let kinder = 0;
-let fromageBlanc = 0;
-let fromageChevre = 0;
-let poulet = 0;
-let boeuf = 0;
-let cheval = 0;
-let tabac = 0;
+"use strict";
 let listeArticle =[];
 let sommeTotal =0;
 
